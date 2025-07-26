@@ -57,6 +57,7 @@ import Legacy from "@/components/Legacy";
 import Navbar from "@/components/Navbar";
 import Something from "@/components/ServicePage/Something";
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
