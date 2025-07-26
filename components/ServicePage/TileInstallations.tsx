@@ -121,6 +121,7 @@
 // export default TileInstallations;
 
 import React from "react";
+import Image from "next/image";
 
 const TileInstallations = () => {
   const cards = [
