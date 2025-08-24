@@ -25,7 +25,7 @@
 //                   quality, pattern, and tone.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-1.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -42,7 +42,7 @@
 //                   honed textures.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-2.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -64,7 +64,7 @@
 //                   result.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-3.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -81,7 +81,7 @@
 //                   support plans.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-4.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -129,22 +129,22 @@ const MarbleInstallations = () => {
     {
       title: "Material Sourcing & Selection",
       text: "We provide a curated selection of premium Indian and imported stones tailored to your project — ensuring consistency in quality, pattern, and tone.",
-      image: "interior-1.jpg",
+      image: "interior-5.jpg",
     },
     {
       title: "Precision Cutting & Edging",
       text: "Using advanced machinery and hand-finishing, we craft custom cuts, edges, and finishes — including beveled, bullnose, and honed textures.",
-      image: "interior-2.jpg",
+      image: "interior-6.jpg",
     },
     {
       title: "Professional Installations",
       text: "Our expert team handles site-level fitting, joint sealing, and levelling — ensuring a clean, durable, and elegant final result.",
-      image: "interior-3.jpg",
+      image: "interior-7.jpg",
     },
     {
       title: "Maintenance & Polishing",
       text: "We offer post-installation polishing and care guidelines to retain natural sheen and strength, with optional long-term support plans.",
-      image: "interior-4.jpg",
+      image: "interior-8.jpg",
     },
   ];
 
@@ -166,7 +166,7 @@ const MarbleInstallations = () => {
                 <p className="outfit text-[14px] sm:text-[16px]">{card.text}</p>
               </div>
               {/* Hover Image */}
-              <Image
+              <img
                 src={card.image}
                 alt={card.title}
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"

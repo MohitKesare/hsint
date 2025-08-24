@@ -17,7 +17,7 @@ const Services = () => {
           {/* start here */}
           <div className="group relative w-[90%] md:w-[30%] h-full  border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white ">
             {/* Expanding image */}
-            <Image
+            <img
               src="/services-1.png"
               alt="Profile"
               className="
@@ -42,7 +42,7 @@ const Services = () => {
           {/* start here */}
           <div className="group relative w-[90%] md:w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <Image
+            <img
               src="/services-2.png"
               alt="Profile"
               className="
@@ -70,7 +70,7 @@ const Services = () => {
           {/* start here */}
           <div className="group relative w-[90%] md:w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <Image
+            <img
               src="/services-3.png"
               alt="Profile"
               className="

@@ -18,7 +18,7 @@ const RecentWork = () => {
             {/* start here */}
 
             <div className="relative group h-[50%] lg:h-[55%] w-full overflow-hidden">
-              <Image
+              <img
                 src="/recent-work-1.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"
@@ -36,7 +36,7 @@ const RecentWork = () => {
               </div>
             </div>
             <div className="relative group h-[50%] lg:h-[45%] w-full overflow-hidden">
-              <Image
+              <img
                 src="/recent-work-3.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"
@@ -56,7 +56,7 @@ const RecentWork = () => {
           </div>
           <div className="h-[72vh] lg:h-full w-[90%] lg:w-[49%]  flex flex-col space-y-3">
             <div className="relative group h-[50%] lg:h-[45%] w-full overflow-hidden">
-              <Image
+              <img
                 src="/recent-work-2.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"
@@ -72,7 +72,7 @@ const RecentWork = () => {
               </div>
             </div>
             <div className="relative group h-[50%] lg:h-[55%] w-full overflow-hidden">
-              <Image
+              <img
                 src="/recent-work-4.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"

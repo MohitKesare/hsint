@@ -49,7 +49,7 @@
 //                   functionality, and aesthetics.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-1.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -66,7 +66,7 @@
 //                   scale, texture, and comfort.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-2.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -88,7 +88,7 @@
 //                   endure through trends.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-3.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -105,7 +105,7 @@
 //                   architectural elements.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-4.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -127,22 +127,22 @@ const TileInstallations = () => {
     {
       title: "Spatial Planning & Layout Design",
       text: "We analyze your space to create optimal layouts that align with your lifestyle or brand needs — ensuring efficient flow, functionality, and aesthetics.",
-      image: "interior-1.jpg",
+      image: "interior-2.jpg",
     },
     {
       title: "Furniture & Décor Curation",
       text: "From modular furniture to custom pieces, we curate or design furnishings that complete your space — with attention to scale, texture, and comfort.",
-      image: "interior-2.jpg",
+      image: "interior-4.jpg",
     },
     {
       title: "Material & Color Consultation",
       text: "From marble finishes to wall paints, we help you choose materials and color palettes that reflect your vision and endure through trends.",
-      image: "interior-3.jpg",
+      image: "interior-6.jpg",
     },
     {
       title: "Lighting & Ambience Design",
       text: "We design layered lighting systems — ambient, task, and accent — to shape mood, improve usability, and highlight key architectural elements.",
-      image: "interior-4.jpg",
+      image: "interior-8.jpg",
     },
   ];
 
@@ -181,7 +181,7 @@ const TileInstallations = () => {
                 <p className="outfit text-[16px]">{card.text}</p>
               </div>
               {/* Hover Image */}
-              <Image
+              <img
                 src={card.image}
                 alt={card.title}
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"

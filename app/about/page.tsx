@@ -12,7 +12,7 @@
 //   return (
 //     <div className="relative w-full flex flex-col">
 //       {/* Background Image */}
-//       <Image
+//       <img
 //         src="services-home.png"
 //         alt=""
 //         className="absolute top-0 left-0 w-full h-[60vh] object-cover z-0 "
@@ -64,7 +64,7 @@ const page = () => {
       {/* HERO SECTION */}
       <div className="relative w-full h-[60vh]">
         {/* Background Image */}
-        <Image
+        <img
           src="services-home.png"
           alt="services-bg"
           className="absolute top-0 left-0 w-full h-full object-cover z-0"

@@ -8,7 +8,7 @@
 //         <div className="w-[50%] flex flex-col justify-evenly">
 //           <div className="h-[30%] w-full  flex space-x-10">
 //             <div className="flex flex-col ml-4 justify-center items-center">
-//               <Image src="process-1.png" alt="" className="h-[10vh]  w-[8vw] " />
+//               <img src="process-1.png" alt="" className="h-[10vh]  w-[8vw] " />
 //               <div className="h-full w-[2px] bg-[#C4A386] mt-4" />
 //             </div>
 //             <div className="flex flex-col ">
@@ -25,7 +25,7 @@
 //           </div>
 //           <div className="h-[30%] w-full  flex space-x-10">
 //             <div className="flex flex-col ml-4 justify-center items-center">
-//               <Image src="process-2.png" alt="" className="h-[10vh]  w-[8vw] " />
+//               <img src="process-2.png" alt="" className="h-[10vh]  w-[8vw] " />
 //               <div className="h-full w-[2px] bg-[#C4A386] mt-4" />
 //             </div>
 //             <div className="flex flex-col ">
@@ -41,7 +41,7 @@
 //           </div>
 //           <div className="h-[30%] w-full  flex space-x-10">
 //             <div className="flex flex-col ml-4 justify-center items-center">
-//               <Image src="process-3.png" alt="" className="h-[10vh]  w-[8vw] " />
+//               <img src="process-3.png" alt="" className="h-[10vh]  w-[8vw] " />
 //               <div className="h-full w-[2px] bg-[#C4A386] mt-4" />
 //             </div>
 //             <div className="flex flex-col ">
@@ -101,7 +101,7 @@ const Process = () => {
           {/* Step 1 */}
           <div className="flex gap-6">
             <div className="flex flex-col items-center">
-              <Image
+              <img
                 src="/process-1.png"
                 alt="Step 1"
                 className="h-20 w-20 object-contain"
@@ -126,7 +126,7 @@ const Process = () => {
           {/* Step 2 */}
           <div className="flex gap-6">
             <div className="flex flex-col items-center">
-              <Image
+              <img
                 src="/process-2.png"
                 alt="Step 2"
                 className="h-20 w-20 object-contain"
@@ -150,7 +150,7 @@ const Process = () => {
           {/* Step 3 */}
           <div className="flex gap-6">
             <div className="flex flex-col items-center">
-              <Image
+              <img
                 src="/process-3.png"
                 alt="Step 3"
                 className="h-20 w-20 object-contain"

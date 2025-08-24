@@ -13,7 +13,7 @@ const page = () => {
   return (
     <div className="relative w-full flex flex-col border-red-500 border-2 ">
       {/* Background Image */}
-      <Image
+      <img
         src="services-home.png"
         alt=""
         className="absolute top-0 left-0 w-full h-[60vh] object-cover z-0 "

@@ -12,28 +12,28 @@
 //       </div>
 //       <div className="w-[70%]lg:w-[90%] flex  flex-col md:grid md:grid-cols-2 gap-4 lg:flex lg:flex-row  justify-evenly h-[80%]  items-start">
 //         <div className="flex items-center justify-center   space-x-2">
-//           <Image src="/legacy-number-1.png" alt="" />
+//           <img src="/legacy-number-1.png" alt="" />
 //           <div className="flex flex-col items-start justify-center space-x-2">
 //             <h3 className="outfit">500+</h3>
 //             <p className="outfit-400-16">Projects completed</p>
 //           </div>
 //         </div>
 //         <div className="flex items-center justify-center   space-x-2">
-//           <Image src="/legacy-number-2.png" alt="" />
+//           <img src="/legacy-number-2.png" alt="" />
 //           <div className="flex flex-col items-start justify-center space-x-2">
 //             <h3 className="outfit">100+</h3>
 //             <p className="outfit-400-16">Tile & stone Options</p>
 //           </div>
 //         </div>
 //         <div className="flex items-center justify-center   space-x-2">
-//           <Image src="/legacy-number-3.png" alt="" />
+//           <img src="/legacy-number-3.png" alt="" />
 //           <div className="flex flex-col items-start justify-center space-x-2">
 //             <h3 className="outfit">200+</h3>
 //             <p className="outfit-400-16">Happy Clients</p>
 //           </div>
 //         </div>
 //         <div className="flex items-center justify-center   space-x-2">
-//           <Image src="/legacy-number-4.png" alt="" />
+//           <img src="/legacy-number-4.png" alt="" />
 //           <div className="flex flex-col items-start justify-center space-x-2">
 //             <h3 className="outfit">1992</h3>
 //             <p className="outfit-400-16">Established In</p>
@@ -63,7 +63,7 @@ const Legacy = () => {
       <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Item 1 */}
         <div className="flex items-center space-x-4">
-          <Image
+          <img
             src="/legacy-number-1.png"
             alt="Projects"
             className="w-12 h-12 object-contain"
@@ -78,7 +78,7 @@ const Legacy = () => {
 
         {/* Item 2 */}
         <div className="flex items-center space-x-4">
-          <Image
+          <img
             src="/legacy-number-2.png"
             alt="Options"
             className="w-12 h-12 object-contain"
@@ -93,7 +93,7 @@ const Legacy = () => {
 
         {/* Item 3 */}
         <div className="flex items-center space-x-4">
-          <Image
+          <img
             src="/legacy-number-3.png"
             alt="Clients"
             className="w-12 h-12 object-contain"
@@ -108,7 +108,7 @@ const Legacy = () => {
 
         {/* Item 4 */}
         <div className="flex items-center space-x-4">
-          <Image
+          <img
             src="/legacy-number-4.png"
             alt="Established"
             className="w-12 h-12 object-contain"

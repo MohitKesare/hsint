@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className="relative w-full flex flex-col">
       {/* Background Image */}
-      <Image
+      <img
         src="work-hero.png"
         alt=""
         className="absolute top-0 left-0 w-full h-[60vh] object-cover z-0 "
@@ -25,7 +25,7 @@ const page = () => {
 
         {/* Page Content */}
         <div className="pt-24 px-8 text-white max-w-5xl mx-auto flex items-center justify-center flex-col">
-          <h1 className="fira-code-600 text-[71px]mt-10 text-center">
+          <h1 className="fira-code-600 text-[71px] mt-10 text-center">
             Let&apos;s Connect & Create Something Exceptional
           </h1>
         </div>

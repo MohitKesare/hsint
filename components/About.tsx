@@ -32,12 +32,12 @@ const About = () => {
         </div>
         <div className="flex h-full w-full lg:w-[50%] items-center justify-center mt-10">
           <div className="w-full h-[80%]  space-x-2 flex">
-            <Image
+            <img
               src="/about-1.png"
               alt="About Us"
               className="w-[50%] md:w-full h-full object-cover relative -top-10 "
             />
-            <Image
+            <img
               src="/about-2.png"
               alt="About Us"
               className="w-[50%] md:w-full h-full object-cover relative top-10"

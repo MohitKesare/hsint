@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className="relative w-full flex flex-col">
       {/* Background Image */}
-      <Image
+      <img
         src="work-hero.png"
         alt=""
         className="absolute top-0 left-0 w-full h-[60vh] object-cover z-0 "
@@ -29,10 +29,10 @@ const page = () => {
 
         {/* Page Content */}
         <div className="pt-24 px-8 text-white max-w-5xl mx-auto flex items-center justify-center flex-col">
-          <h1 className="fira-code-600 text-[71px]mt-10">
+          <h1 className="fira-code-600 text-[71px] mt-10">
             Our Work Speaks All
           </h1>
-          <p className="outfit-24 text-[30px]mt-4 text-center">
+          <p className="outfit-24 text-[30px] mt-4 text-center">
             Integrity matters. We are committed to delivering quality.
           </p>
         </div>

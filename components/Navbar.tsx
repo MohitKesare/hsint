@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="text-2xl font-bold text-white    sm:w-fit">
         <Link href="/">
-          <Image src="/logo.svg" alt="" />
+          <img src="/logo.svg" alt="" />
         </Link>
       </div>
 

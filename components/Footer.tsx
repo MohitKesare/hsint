@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="relative w-full h-fit bg-[#2C2C2C]  flex flex-col items-center justify-center">
       <div className="h-[20vh] sm:h-[40vh]  w-[90%] flex items-center justify-center ">
         <div className="flex">
-          <Image src="logo.svg" alt="" className="mr-3" />
+          <img src="logo.svg" alt="" className="mr-3" />
           <h2 className="fira-code-600 text-[28px] sm:text-[44px] md:text-[71px] text-[#C4A386] ml-2">
             HS Interior Company
           </h2>

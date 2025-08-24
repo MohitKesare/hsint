@@ -52,7 +52,7 @@
 //                   functionality, and aesthetics.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-1.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -69,7 +69,7 @@
 //                   scale, texture, and comfort.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-2.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -91,7 +91,7 @@
 //                   endure through trends.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-3.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -108,7 +108,7 @@
 //                   architectural elements.
 //                 </p>
 //               </div>
-//               <Image
+//               <img
 //                 src={`interior-4.jpg`}
 //                 alt=""
 //                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -185,7 +185,7 @@ const InteriorDesign = () => {
                 </p>
               </div>
               {/* Image on hover */}
-              <Image
+              <img
                 src={card.image}
                 alt={card.title}
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"

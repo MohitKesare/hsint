@@ -32,7 +32,7 @@
 //         </div>
 //         <div className="flex h-full w-[50%] items-center justify-center">
 //           <div className="w-full h-[80%]  space-x-2 flex">
-//             <Image
+//             <img
 //               src="/about-2.png"
 //               alt="About Us"
 //               className="w-full h-full object-cover relative top-10"
@@ -47,7 +47,7 @@
 // export default AboutUs;
 
 import React from "react";
-import Image from "next/image";
+    import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -88,7 +88,7 @@ const AboutUs = () => {
         {/* Right Section - Image */}
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div className="w-full h-full">
-            <Image
+            <img
               src="/about-2.png"
               alt="About Us"
               className="w-full h-full object-cover rounded-md"

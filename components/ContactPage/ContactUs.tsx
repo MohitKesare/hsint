@@ -11,18 +11,13 @@ const ContactUs = () => {
             CONTACT US
             <div className="w-[85%] h-[1.2px] bg-[#996830] mt-2"></div>
           </div>
-          <div className="fira-code-600 text-[71px]leading-[80px] text-black ml-5">
-            Let&apos;s Connect & Create
-            <br /> Something{" "}
-            <span className="fira-code-italic">Exceptional</span>
-          </div>
         </div>
 
         <div className="w-full h-full  mt-8 flex ">
           <div className="w-[50%] h-full flex flex-col ">
             <div className="flex space-x-10 ml-10 mt-5">
               <div>
-                <h3 className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                <h3 className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                   First Name*
                 </h3>
                 <input
@@ -32,7 +27,7 @@ const ContactUs = () => {
                 />
               </div>
               <div>
-                <h3 className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                <h3 className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                   Last Name*
                 </h3>
                 <input
@@ -44,7 +39,7 @@ const ContactUs = () => {
             </div>
             <div className="flex space-x-10 ml-10 mt-5">
               <div>
-                <h3 className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                <h3 className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                   Email*
                 </h3>
                 <input
@@ -54,7 +49,7 @@ const ContactUs = () => {
                 />
               </div>
               <div>
-                <h3 className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                <h3 className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                   Phone
                 </h3>
                 <input
@@ -65,32 +60,34 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="flex flex-col mt-10 ml-10">
-              <label className="block font-semibold mb-1 outfit-400-20 text-[20px]text-[#2c2c2c]">
+              <label className="block font-semibold mb-1 outfit-400-20 text-[20px] text-[#2c2c2c]">
                 Services you want:
               </label>
               <div className="flex space-x-5 mt-5">
                 <label className="flex items-center gap-2">
                   <input type="checkbox" name="marbleFitting " />
-                  <p className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                  <p className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                     Marble Fitting
                   </p>
                 </label>
                 <label className="flex items-center gap-2">
                   <input type="checkbox" name="tileInstallation " />
-                  <p className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                  <p className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                     Tile Installations
                   </p>
                 </label>
                 <label className="flex items-center gap-2">
                   <input type="checkbox" name="graniteFitting " />
-                  <p className="outfit-400-20 text-[20px]text-[#2c2c2c]">
+                  <p className="outfit-400-20 text-[20px] text-[#2c2c2c]">
                     Granite Fitting
                   </p>
                 </label>
               </div>
             </div>
             <div className="ml-10 mt-6 flex flex-col">
-              <p className="outfit-400-20 text-[20px]text-[#2c2c2c]">Message</p>
+              <p className="outfit-400-20 text-[20px] text-[#2c2c2c]">
+                Message
+              </p>
               <textarea
                 name="message"
                 placeholder="Type your message here..."
@@ -119,25 +116,27 @@ const ContactUs = () => {
           <div className="w-[50%] h-full flex flex-col ">
             <div className="flex justify-around mt-10">
               <div className="flex flex-col space-y-4">
-                <Image src="email.png" alt="" className="w-[2vw]" />
-                <h3 className="outfit-30 text-[30px]text-[#996830]">Email</h3>
-                <p className="underline outfit-400-16 text-[16px]text-[#2c2c2c]">
+                <img src="email.png" alt="" className="w-[2vw]" />
+                <h3 className="outfit-30 text-[30px] text-[#996830]">Email</h3>
+                <p className="underline outfit-400-16 text-[16px] text-[#2c2c2c]">
                   hsinterior@gmail.com
                 </p>
               </div>
               <div className="flex flex-col space-y-4">
-                <Image src="phone.png" alt="" className="w-[2vw]" />
-                <h3 className="outfit-30 text-[30px]text-[#996830]">Phone</h3>
-                <p className="underline outfit-400-16 text-[16px]text-[#2c2c2c]">
+                <img src="phone.png" alt="" className="w-[2vw]" />
+                <h3 className="outfit-30 text-[30px] text-[#996830]">Phone</h3>
+                <p className="underline outfit-400-16 text-[16px]  text-[#2c2c2c]">
                   9767457282
                 </p>
               </div>
             </div>
             <div className="flex items-start mt-10 ml-30">
               <div className="flex flex-col ">
-                <Image src="address.png" alt="" className="w-[2vw]" />
-                <h3 className="outfit-30 text-[30px]text-[#996830]">Address</h3>
-                <p className="underline outfit-400-16 text-[16px]text-[#2c2c2c]">
+                <img src="address.png" alt="" className="w-[2vw]" />
+                <h3 className="outfit-30 text-[30px] text-[#996830]">
+                  Address
+                </h3>
+                <p className="underline outfit-400-16 text-[16px]   text-[#2c2c2c]">
                   Infront Of Dmart, Hinjewadi, Pune
                 </p>
               </div>
@@ -145,7 +144,7 @@ const ContactUs = () => {
             <div className="h-[30vh] w-[40vw]  mt-10 ml-10 overflow-hidden">
               <Link href={"/"}>
                 {" "}
-                <Image src="location.png" alt="" className="w-full " />
+                <img src="location.png" alt="" className="w-full " />
               </Link>
             </div>
           </div>
