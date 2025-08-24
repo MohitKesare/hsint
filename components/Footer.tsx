@@ -23,13 +23,13 @@ const Footer = () => {
         <div className="flex flex-col w-fit sm:my-8 space-y-6 sm:space-y-4">
           <div>
             <p className="outfit-400-16">Address:</p>
-            <p className="outfit-400-16 text-[16px]text-[#C4A386]">
+            <p className="outfit-400-16 text-[16px] text-[#C4A386]">
               Infont od Dmart, Hinjewadi, Pune
             </p>
           </div>
           <div>
             <p className="outfit-400-16">Contact:</p>
-            <p className="outfit-400-16 text-[16px]text-[#C4A386]">
+            <p className="outfit-400-16 text-[16px] text-[#C4A386]">
               9767457282
             </p>
             <p className="outfit-400-16 text-[16px]text-[#C4A386]">
